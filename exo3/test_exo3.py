@@ -26,5 +26,3 @@ class TestExo3(unittest.TestCase):
         # Vérifier si le résultat est correct
         self.assertEqual(expected, processLines(lines))
 
-if __name__ == "__main__":
-    unittest.main()
